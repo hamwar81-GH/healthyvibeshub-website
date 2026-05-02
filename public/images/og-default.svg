@@ -1,0 +1,66 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0fdf4"/>
+      <stop offset="60%" style="stop-color:#dcfce7"/>
+      <stop offset="100%" style="stop-color:#fefdf8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e"/>
+      <stop offset="100%" style="stop-color:#16a34a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="1050" cy="80" r="200" fill="#22c55e" opacity="0.07"/>
+  <circle cx="150" cy="550" r="180" fill="#22c55e" opacity="0.06"/>
+  <circle cx="950" cy="560" r="120" fill="#22c55e" opacity="0.05"/>
+
+  <!-- Logo badge -->
+  <rect x="80" y="70" width="80" height="80" rx="20" fill="url(#accent)"/>
+  <text x="120" y="128" font-size="48" text-anchor="middle">🌿</text>
+
+  <!-- Site name -->
+  <text x="180" y="102" font-family="Georgia, serif" font-size="36" font-weight="700" fill="#166534">Healthy Vibes Hub</text>
+  <text x="180" y="130" font-family="Arial, sans-serif" font-size="16" fill="#22c55e" letter-spacing="4">HEALTHYVIBESHUB.COM</text>
+
+  <!-- Divider -->
+  <line x1="80" y1="175" x2="1120" y2="175" stroke="#bbf7d0" stroke-width="2"/>
+
+  <!-- Main headline -->
+  <text x="80" y="270" font-family="Georgia, serif" font-size="58" font-weight="700" fill="#14532d">Health Tips, Natural Remedies</text>
+  <text x="80" y="345" font-family="Georgia, serif" font-size="58" font-weight="700" fill="#14532d">&amp; Wellness Guides</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="415" font-family="Arial, sans-serif" font-size="26" fill="#4b7c4b">Science-backed content for every age · Medically reviewed</text>
+
+  <!-- Tag pills -->
+  <rect x="80" y="455" width="190" height="44" rx="22" fill="#dcfce7"/>
+  <text x="175" y="483" font-family="Arial, sans-serif" font-size="18" fill="#166534" text-anchor="middle" font-weight="600">💊 Health Tips</text>
+
+  <rect x="285" y="455" width="225" height="44" rx="22" fill="#dcfce7"/>
+  <text x="397" y="483" font-family="Arial, sans-serif" font-size="18" fill="#166534" text-anchor="middle" font-weight="600">🌿 Natural Remedies</text>
+
+  <rect x="525" y="455" width="200" height="44" rx="22" fill="#dcfce7"/>
+  <text x="625" y="483" font-family="Arial, sans-serif" font-size="18" fill="#166534" text-anchor="middle" font-weight="600">🧘 Wellness</text>
+
+  <rect x="740" y="455" width="175" height="44" rx="22" fill="#dcfce7"/>
+  <text x="827" y="483" font-family="Arial, sans-serif" font-size="18" fill="#166534" text-anchor="middle" font-weight="600">🥗 Nutrition</text>
+
+  <!-- Stats bar -->
+  <rect x="80" y="530" width="1040" height="60" rx="14" fill="#22c55e" opacity="0.12"/>
+  <text x="200" y="568" font-family="Arial, sans-serif" font-size="20" fill="#166534" text-anchor="middle" font-weight="700">50,000+</text>
+  <text x="200" y="586" font-family="Arial, sans-serif" font-size="13" fill="#4b7c4b" text-anchor="middle">Monthly Readers</text>
+
+  <text x="450" y="568" font-family="Arial, sans-serif" font-size="20" fill="#166534" text-anchor="middle" font-weight="700">250+</text>
+  <text x="450" y="586" font-family="Arial, sans-serif" font-size="13" fill="#4b7c4b" text-anchor="middle">Expert Articles</text>
+
+  <text x="700" y="568" font-family="Arial, sans-serif" font-size="20" fill="#166534" text-anchor="middle" font-weight="700">3 MDs</text>
+  <text x="700" y="586" font-family="Arial, sans-serif" font-size="13" fill="#4b7c4b" text-anchor="middle">Certified Authors</text>
+
+  <text x="950" y="568" font-family="Arial, sans-serif" font-size="20" fill="#166534" text-anchor="middle" font-weight="700">100%</text>
+  <text x="950" y="586" font-family="Arial, sans-serif" font-size="13" fill="#4b7c4b" text-anchor="middle">Medically Reviewed</text>
+</svg>

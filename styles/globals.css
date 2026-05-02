@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #22c55e;
+    --primary-dark: #16a34a;
+    --bg-cream: #fefdf8;
+    --text-dark: #1a2e1a;
+    --text-muted: #5a7a5a;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    color: var(--text-dark);
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-primary-500 text-white font-semibold px-6 py-3 rounded-full transition-all duration-300 hover:bg-primary-600 hover:shadow-glow hover:-translate-y-0.5 active:translate-y-0;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 border-2 border-primary-500 text-primary-600 font-semibold px-6 py-3 rounded-full transition-all duration-300 hover:bg-primary-50 hover:-translate-y-0.5;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl shadow-card border border-green-50 overflow-hidden transition-all duration-300 hover:shadow-card-hover hover:-translate-y-1;
+  }
+
+  .section-title {
+    @apply font-display text-3xl md:text-4xl font-bold text-gray-900 leading-tight;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-gray-500 font-body mt-3;
+  }
+
+  .badge {
+    @apply inline-block text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .badge-green {
+    @apply badge bg-primary-100 text-primary-700;
+  }
+
+  .badge-orange {
+    @apply badge bg-orange-100 text-orange-700;
+  }
+
+  .nav-link {
+    @apply text-gray-600 font-medium transition-colors duration-200 hover:text-primary-600 relative;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .prose-custom p {
+    @apply text-gray-600 leading-relaxed mb-4 font-body;
+  }
+
+  .prose-custom h2 {
+    @apply font-display text-2xl font-bold text-gray-900 mt-10 mb-4;
+  }
+
+  .prose-custom h3 {
+    @apply font-display text-xl font-semibold text-gray-800 mt-8 mb-3;
+  }
+
+  .prose-custom ul {
+    @apply list-disc list-inside space-y-2 text-gray-600 mb-4;
+  }
+
+  .ad-slot {
+    @apply w-full bg-gray-50 border border-dashed border-gray-200 rounded-xl flex items-center justify-center text-gray-300 text-sm min-h-[90px];
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-delay-100 { animation-delay: 100ms; }
+  .animate-delay-200 { animation-delay: 200ms; }
+  .animate-delay-300 { animation-delay: 300ms; }
+  .animate-delay-400 { animation-delay: 400ms; }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Back to top button */
+#back-to-top {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Smooth article cards */
+.article-card:hover .article-image {
+  transform: scale(1.04);
+}
+.article-image {
+  transition: transform 0.4s ease;
+}

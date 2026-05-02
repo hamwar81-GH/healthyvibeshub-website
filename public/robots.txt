@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Block admin and private paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /404
+Disallow: /search
+
+# Sitemaps
+Sitemap: https://healthyvibeshub.com/sitemap.xml
+
+# Crawl-delay for bots (optional)
+Crawl-delay: 1
