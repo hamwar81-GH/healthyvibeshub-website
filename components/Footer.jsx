@@ -83,7 +83,7 @@ export default function Footer() {
                 </a>
               ))}
               {/* RSS */}
-              <a
+              <Link
                 href="/rss.xml"
                 className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-orange-500 hover:text-white transition-all duration-200"
                 aria-label="RSS Feed"
@@ -91,7 +91,7 @@ export default function Footer() {
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M6.18 15.64a2.18 2.18 0 012.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 012.18-2.18M4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44m0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"/>
                 </svg>
-              </a>
+              </Link>
             </div>
 
             {/* Contact Info */}
